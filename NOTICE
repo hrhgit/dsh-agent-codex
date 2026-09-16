@@ -1,0 +1,16 @@
+@hrhgit/dsh-agent-codex
+Copyright 2026 Ruihua He
+Licensed under the MIT License.
+
+This package derives its static Codex CLI tool contract and prompt semantics
+from OpenAI Codex source at commit 136f75e7b7fca7d327fe0f23368ed5482804ea5f.
+Referenced source files are listed in SOURCES.md. The following upstream notice
+is retained for those Apache-2.0-derived semantics. This package does not
+contain Ratatui source code or compiled Ratatui artifacts.
+
+OpenAI Codex
+Copyright 2025 OpenAI
+
+This project includes code derived from Ratatui (https://github.com/ratatui/ratatui), licensed under the MIT license.
+Copyright (c) 2016-2022 Florian Dehau
+Copyright (c) 2023-2025 The Ratatui Developers
