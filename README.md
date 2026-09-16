@@ -1,8 +1,8 @@
-# @hrhgit/dsh-agent-codex
+# @ruihuahe/dsh-agent-codex
 
 [中文](README.zh-CN.md) | English
 
-`@hrhgit/dsh-agent-codex` supplies the version-locked static Codex coding-tool contract used by the DeepSeek Harness **Codex mode** preset. Installing this package alone changes no global runtime state: the preset mounts individual exports in one agent scope, so Agent Manager can inspect and toggle each declared row after a user copies the system preset.
+`@ruihuahe/dsh-agent-codex` supplies the version-locked static Codex coding-tool contract used by the DeepSeek Harness **Codex mode** preset. Installing this package alone changes no global runtime state: the preset mounts individual exports in one agent scope, so Agent Manager can inspect and toggle each declared row after a user copies the system preset.
 
 ## Source and license attribution
 
@@ -28,7 +28,7 @@ The `spawn-agent` export accepts a host-owned `provider` configuration, defaulti
 
 ```yaml
 - id: spawn-agent
-  name: '@hrhgit/dsh-agent-codex/spawn-agent'
+  name: '@ruihuahe/dsh-agent-codex/spawn-agent'
   config:
     provider: spawn
 ```

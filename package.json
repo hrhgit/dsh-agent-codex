@@ -1,5 +1,5 @@
 {
-  "name": "@hrhgit/dsh-agent-codex",
+  "name": "@ruihuahe/dsh-agent-codex",
   "version": "0.1.0",
   "description": "Static Codex CLI coding-agent tools for DeepSeek Harness",
   "license": "MIT",

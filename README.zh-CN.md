@@ -1,8 +1,8 @@
-# @hrhgit/dsh-agent-codex
+# @ruihuahe/dsh-agent-codex
 
 中文 | [English](README.md)
 
-`@hrhgit/dsh-agent-codex` 为 DeepSeek Harness 的 **Codex 模式**提供版本锁定的静态 Codex 编码工具契约。单独安装本包不会产生全局运行时副作用：预设在一个智能体作用域内逐项挂载导出，因此用户先复制系统预设后，Agent Manager 可以查看并独立启停每个已声明工具行。
+`@ruihuahe/dsh-agent-codex` 为 DeepSeek Harness 的 **Codex 模式**提供版本锁定的静态 Codex 编码工具契约。单独安装本包不会产生全局运行时副作用：预设在一个智能体作用域内逐项挂载导出，因此用户先复制系统预设后，Agent Manager 可以查看并独立启停每个已声明工具行。
 
 ## 来源与许可
 
@@ -28,7 +28,7 @@
 
 ```yaml
 - id: spawn-agent
-  name: '@hrhgit/dsh-agent-codex/spawn-agent'
+  name: '@ruihuahe/dsh-agent-codex/spawn-agent'
   config:
     provider: spawn
 ```
